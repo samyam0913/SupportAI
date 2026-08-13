@@ -1,20 +1,24 @@
 # Python
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-*.py[cod]
-*.sqlite3
+backend/.venv/
+backend/venv/
+backend/*.sqlite3
+backend/staticfiles/
+backend/media/
 
 # Virtual environments and Environment variables
 venv/
 .env
 .env.*
 .venv/
+.env.local
+backend/.env
 
 # Node
-node_modules/
-dist/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
 
 # VSCode
 .vscode/
